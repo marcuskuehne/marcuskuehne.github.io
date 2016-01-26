@@ -3,7 +3,7 @@ layout: page
 title: about this page 
 permalink: /about this page/
 ---
-## marcuskuehne.de is :##
+marcuskuehne.de is :
 Inspired by the idea of my collegue [Yasin Güzeldal][yasin] and from [Jonathan MCGlone][jonathan]. 
 Build with [Jekyll][jekyll] and with the cool tutorial from [Taniarascia][tania].
 
