@@ -1,0 +1,62 @@
+.page-header {
+    font-size: 25px;
+    font-family: 'Roboto Mono', Helvetica, sans-serif;
+    display: block;
+    border-bottom: 1px solid $line-color;
+  
+  &__content {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 25px 10px;
+  }
+  .logo {
+    opacity: 0.8;
+    display: inline-block;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:$font-color;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  nav {
+  float: right;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      display: inline-block;
+      &:first-of-type a {
+        margin: 0px;
+      }
+      a {
+        opacity: 0.8;
+        font-size: 20px;
+        display: inline-block;
+        margin: 0px 0px 0px 30px;
+        text-align: center;
+        &:hover {
+          opacity: 1;
+        }
+        &.active {
+          font-weight: 600;
+        }
+        &:after {
+          content: attr(title);
+          display: block;
+          font-weight: 600;
+          text-align: center;
+          visibility: hidden;
+          height: 1px;
+          margin-top: -7px;
+          overflow: hidden;
+          color: transparent;
+        }
+      }
+    }
+  }
+}
+
+

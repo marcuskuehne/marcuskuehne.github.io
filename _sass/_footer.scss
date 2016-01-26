@@ -1,0 +1,25 @@
+footer {
+  font-family: 'Roboto Mono', Helvetica, sans-serif;
+  font-size: 14px;
+  display: block;
+  border-top: 1px solid $line-color;
+  display:block;
+  .more{
+    float:right;
+    margin: 0px;
+    padding: 0px;
+    li{
+    display: inline-block;
+    letter-spacing: -1px;
+    list-style: none;
+    a
+      {
+      &:hover 
+      { 
+      font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
