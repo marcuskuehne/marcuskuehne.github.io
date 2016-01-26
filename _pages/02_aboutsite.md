@@ -4,7 +4,9 @@ title: about this page
 permalink: /about this page/
 ---
 marcuskuehne.de is :
+
 Inspired by the idea of my collegue [Yasin Güzeldal][yasin] and from [Jonathan MCGlone][jonathan]. 
+
 Build with [Jekyll][jekyll] and with the cool tutorial from [Taniarascia][tania].
 
 Hosted on [GitHub][github] with [GitHub Pages][githubpages].
