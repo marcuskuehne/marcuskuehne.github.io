@@ -12,6 +12,10 @@
   .logo {
     display: inline-block;
     width: 40px;
+    &:hover .cls-1 {
+      transition: 0.2s;
+      fill: $green-100;
+    }
   }
   nav {
   float: right;
@@ -26,14 +30,14 @@
         margin: 0px;
       }
       a {
+        color: $font-color;
         font-weight: 300;
-        opacity: 0.8;
         font-size: 20px;
         display: inline-block;
         margin: 0px 0px 0px 30px;
         text-align: center;
         &:hover {
-          opacity: 1;
+          font-weight: 500;
         }
         &.active {
           font-weight: 600;

@@ -1,6 +1,6 @@
 footer {
   font-family: 'Roboto Mono', Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   border-top: 1px solid $line-color;
   display:block;
@@ -13,10 +13,10 @@ footer {
     letter-spacing: -1px;
     list-style: none;
     a 
-      {font-weight: 300;
+      {color:$font-color;
       &:hover 
       { 
-      font-weight: 600;
+      font-weight: 500;
         }
       }
     }
