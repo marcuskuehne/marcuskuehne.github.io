@@ -4,7 +4,7 @@ layout: page
 
 #Hi, I am marcus,#
 I have an education as a carpenter and studied communication psychology with the focus on human interaction.
-Now i work as a user experience for [InVision][invision]. in the leipzig office. It's a very great team 
+in the leipzig office. It's a very great team 
 with challenging tasks and a lot of fun.
 
 Beside this i go deeper in web development and want to learn more and more how the web works. 
